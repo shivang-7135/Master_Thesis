@@ -1,0 +1,518 @@
+year,domain,category,skill,count,percentage
+2019,AI,Administrative,issue management,1,0.03
+2019,AI,Analytical,analytisch,7,0.19
+2019,AI,Analytical,business analytics,7,0.19
+2019,AI,Analytical,data analytics,97,2.59
+2019,AI,Analytical,datenanalyse,13,0.35
+2019,AI,Analytical,google analytics,2,0.05
+2019,AI,Analytical,insight,3,0.08
+2019,AI,BigData,big data,216,5.76
+2019,AI,BigData,hadoop,38,1.01
+2019,AI,BigData,hive,2,0.05
+2019,AI,BigData,mapreduce,2,0.05
+2019,AI,BigData,nosql,14,0.37
+2019,AI,BigData,oozie,1,0.03
+2019,AI,BigData,spark,34,0.91
+2019,AI,BigData,unstructured data,2,0.05
+2019,AI,Communication_Generic,competitive,1,0.03
+2019,AI,Communication_Generic,erfolgsorientiert,2,0.05
+2019,AI,Communication_Generic,responsible,23,0.61
+2019,AI,Communication_Generic,verantwortlich,16,0.43
+2019,AI,Communication_Presentation,present,5,0.13
+2019,AI,Communication_Presentation,presentation,1,0.03
+2019,AI,Communication_Presentation,präsentation,11,0.29
+2019,AI,Communication_Presentation,report,10,0.27
+2019,AI,Communication_Presentation,reporting,30,0.8
+2019,AI,Communication_Verbal,oral,3,0.08
+2019,AI,Communication_Verbal,verbal,2,0.05
+2019,AI,Communication_Written,content creation,1,0.03
+2019,AI,Communication_Written,copywriting,1,0.03
+2019,AI,Creativity,creative,6,0.16
+2019,AI,Creativity,innovativ,1,0.03
+2019,AI,Creativity,kreativ,2,0.05
+2019,AI,DataMining,anomaly detection,2,0.05
+2019,AI,DataMining,associations,1,0.03
+2019,AI,DataMining,classification,3,0.08
+2019,AI,DataMining,datenanalyse,13,0.35
+2019,AI,DataMining,entscheidungsbäume,2,0.05
+2019,AI,DataMining,forecasting,5,0.13
+2019,AI,DataMining,machine learning,221,5.9
+2019,AI,DataMining,maschinelles lernen,16,0.43
+2019,AI,DataMining,prediction,2,0.05
+2019,AI,DataMining,prognose,1,0.03
+2019,AI,DataMining,text mining,10,0.27
+2019,AI,DecisionMaking,analyse,125,3.34
+2019,AI,DecisionMaking,analysis,41,1.09
+2019,AI,DecisionMaking,analytical,6,0.16
+2019,AI,DecisionMaking,analytisch,7,0.19
+2019,AI,DecisionMaking,design,284,7.58
+2019,AI,DecisionMaking,implementation,13,0.35
+2019,AI,DecisionMaking,implementierung,76,2.03
+2019,AI,DecisionMaking,modeling,11,0.29
+2019,AI,DecisionMaking,modellierung,11,0.29
+2019,AI,DecisionMaking,problem solving,1,0.03
+2019,AI,DecisionMaking,problemlösung,2,0.05
+2019,AI,DecisionMaking,reporting,30,0.8
+2019,AI,DecisionMaking,testen,4,0.11
+2019,AI,DecisionMaking,testing,15,0.4
+2019,AI,Employee_Adaptability,flexibel,1,0.03
+2019,AI,Employee_Adaptability,flexible,22,0.59
+2019,AI,Employee_Attitude,eigenverantwortlich,6,0.16
+2019,AI,Employee_Confidence,confident,2,0.05
+2019,AI,Employee_DetailOriented,accuracy,4,0.11
+2019,AI,Employee_DetailOriented,precision,1,0.03
+2019,AI,Employee_Independence,autonomous,12,0.32
+2019,AI,Employee_Independence,eigenständig,4,0.11
+2019,AI,Employee_Independence,independent,6,0.16
+2019,AI,Employee_Independence,selbstständig,59,1.57
+2019,AI,Employee_Independence,unabhängig,9,0.24
+2019,AI,Employee_Motivation,ambition,1,0.03
+2019,AI,Employee_Motivation,ehrgeiz,1,0.03
+2019,AI,Employee_Motivation,ergebnisorientiert,4,0.11
+2019,AI,Employee_Motivation,lernbereitschaft,1,0.03
+2019,AI,Employee_Motivation,motivated,13,0.35
+2019,AI,Employee_Other,proactive,1,0.03
+2019,AI,Employee_Other,proaktiv,2,0.05
+2019,AI,Employee_Other,reliable,3,0.08
+2019,AI,Employee_Other,zuverlässig,14,0.37
+2019,AI,ForeignLanguage,chinese,3,0.08
+2019,AI,ForeignLanguage,deutsch,163,4.35
+2019,AI,ForeignLanguage,englisch,135,3.6
+2019,AI,ForeignLanguage,französisch,4,0.11
+2019,AI,ForeignLanguage,fremdsprache,4,0.11
+2019,AI,ForeignLanguage,german,12,0.32
+2019,AI,ForeignLanguage,italienisch,1,0.03
+2019,AI,ForeignLanguage,spanisch,4,0.11
+2019,AI,ForeignLanguage,spanish,7,0.19
+2019,AI,Interpersonal,collaboration,9,0.24
+2019,AI,Interpersonal,cooperation,4,0.11
+2019,AI,Interpersonal,kooperation,3,0.08
+2019,AI,Interpersonal,networking,6,0.16
+2019,AI,Interpersonal,team management,1,0.03
+2019,AI,Interpersonal,zusammenarbeit,19,0.51
+2019,AI,MSOffice,communication,94,2.51
+2019,AI,MSOffice,documentation,1,0.03
+2019,AI,MSOffice,dokumentation,31,0.83
+2019,AI,MSOffice,excel,15,0.4
+2019,AI,MSOffice,kommunikation,84,2.24
+2019,AI,MSOffice,microsoft office,3,0.08
+2019,AI,MSOffice,ms office,15,0.4
+2019,AI,MSOffice,office suite,12,0.32
+2019,AI,MSOffice,word,2,0.05
+2019,AI,Numeracy,buchhaltung,3,0.08
+2019,AI,Numeracy,mathematik,27,0.72
+2019,AI,Numeracy,rechnungswesen,7,0.19
+2019,AI,Occupational_EnterpriseSystem,crm,19,0.51
+2019,AI,Occupational_EnterpriseSystem,erp,9,0.24
+2019,AI,Occupational_EnterpriseSystem,integration,110,2.94
+2019,AI,Occupational_EnterpriseSystem,oracle,9,0.24
+2019,AI,Occupational_EnterpriseSystem,saas,4,0.11
+2019,AI,Occupational_EnterpriseSystem,sap,116,3.1
+2019,AI,Occupational_EnterpriseSystem,scm,1,0.03
+2019,AI,Occupational_EnterpriseSystem,unternehmenssoftware,1,0.03
+2019,AI,Occupational_Hardware,architecture,17,0.45
+2019,AI,Occupational_Hardware,architektur,75,2.0
+2019,AI,Occupational_Hardware,desktop,21,0.56
+2019,AI,Occupational_Hardware,devices,2,0.05
+2019,AI,Occupational_Hardware,drucker,1,0.03
+2019,AI,Occupational_Hardware,hardware,90,2.4
+2019,AI,Occupational_Hardware,legacy,1,0.03
+2019,AI,Occupational_Hardware,pc,3,0.08
+2019,AI,Occupational_Hardware,server,14,0.37
+2019,AI,Occupational_Hardware,storage,5,0.13
+2019,AI,Occupational_Hardware,system architecture,2,0.05
+2019,AI,Occupational_Hardware,workstation,2,0.05
+2019,AI,Occupational_Modeling,neural networks,2,0.05
+2019,AI,Occupational_Modeling,neuronale netze,4,0.11
+2019,AI,Occupational_Networks,cloud computing,6,0.16
+2019,AI,Occupational_Networks,distributed computing,1,0.03
+2019,AI,Occupational_Networks,internet,25,0.67
+2019,AI,Occupational_Networks,lan,6,0.16
+2019,AI,Occupational_Networks,network security,3,0.08
+2019,AI,Occupational_Networks,networking,6,0.16
+2019,AI,Occupational_Networks,netzwerk,23,0.61
+2019,AI,Occupational_Networks,netzwerke,2,0.05
+2019,AI,Occupational_Networks,netzwerksicherheit,2,0.05
+2019,AI,Occupational_Networks,tcp ip,1,0.03
+2019,AI,Occupational_Networks,wan,4,0.11
+2019,AI,Occupational_Programming,cobol,1,0.03
+2019,AI,Occupational_Programming,java,140,3.74
+2019,AI,Occupational_Programming,javascript,104,2.78
+2019,AI,Occupational_Programming,jquery,1,0.03
+2019,AI,Occupational_Programming,perl,3,0.08
+2019,AI,Occupational_Programming,programmieren,4,0.11
+2019,AI,Occupational_Programming,programmierung,9,0.24
+2019,AI,Occupational_Programming,python,152,4.06
+2019,AI,Occupational_Programming,scala,12,0.32
+2019,AI,Occupational_Programming,vb,2,0.05
+2019,AI,Occupational_Programming,vba,1,0.03
+2019,AI,Occupational_Programming,visual basic,1,0.03
+2019,AI,Occupational_ProjectManagement,change management,12,0.32
+2019,AI,Occupational_ProjectManagement,project management,16,0.43
+2019,AI,Occupational_ProjectManagement,projektmanagement,26,0.69
+2019,AI,Occupational_ProjectManagement,projektplanung,2,0.05
+2019,AI,Occupational_ProjectManagement,änderungsmanagement,2,0.05
+2019,AI,Occupational_Visualization,berichte,1,0.03
+2019,AI,Occupational_Visualization,datenvisualisierung,10,0.27
+2019,AI,Occupational_Visualization,powerbi,1,0.03
+2019,AI,Occupational_Visualization,tableau,36,0.96
+2019,AI,Occupational_Visualization,visualization,4,0.11
+2019,AI,ProblemSolving,problem solving,1,0.03
+2019,AI,ProblemSolving,problemlösung,2,0.05
+2019,AI,ProcessDesign,continuous improvement,1,0.03
+2019,AI,ProcessDesign,improve process,1,0.03
+2019,AI,ProcessDesign,kontinuierliche verbesserung,1,0.03
+2019,AI,ProcessDesign,operations management,2,0.05
+2019,AI,ProcessDesign,prozessverbesserung,1,0.03
+2019,AI,Research,datenanalyse,13,0.35
+2019,AI,Research,recherche,3,0.08
+2019,AI,Statistics,datenanalyse,13,0.35
+2019,AI,Statistics,excel,15,0.4
+2019,AI,Statistics,matlab,8,0.21
+2019,AI,Statistics,regression,2,0.05
+2019,AI,Statistics,sas,8,0.21
+2019,AI,Statistics,splunk,5,0.13
+2019,AI,Statistics,spss,4,0.11
+2019,AI,Statistics,statistics,16,0.43
+2019,AI,Statistics,statistik,40,1.07
+2019,AI,StructuredData,cassandra,2,0.05
+2019,AI,StructuredData,data management,22,0.59
+2019,AI,StructuredData,data warehouse,54,1.44
+2019,AI,StructuredData,datenmanagement,6,0.16
+2019,AI,StructuredData,db2,1,0.03
+2019,AI,StructuredData,mongodb,2,0.05
+2019,AI,StructuredData,mysql,6,0.16
+2019,AI,StructuredData,oracle,9,0.24
+2019,AI,StructuredData,postgresql,2,0.05
+2019,AI,StructuredData,relational database,1,0.03
+2019,AI,StructuredData,sql,84,2.24
+2019,AI,StructuredData,sql server,4,0.11
+2019,ML,Analytical,analytisch,1,0.67
+2019,ML,Analytical,business analytics,3,2.01
+2019,ML,Analytical,data analytics,1,0.67
+2019,ML,Analytical,datenanalyse,1,0.67
+2019,ML,BigData,big data,26,17.45
+2019,ML,BigData,hadoop,2,1.34
+2019,ML,BigData,hive,1,0.67
+2019,ML,BigData,oozie,1,0.67
+2019,ML,BigData,spark,6,4.03
+2019,ML,DataMining,datenanalyse,1,0.67
+2019,ML,DataMining,machine learning,31,20.81
+2019,ML,DecisionMaking,analyse,3,2.01
+2019,ML,DecisionMaking,analysis,1,0.67
+2019,ML,DecisionMaking,analytisch,1,0.67
+2019,ML,DecisionMaking,design,6,4.03
+2019,ML,DecisionMaking,implementation,1,0.67
+2019,ML,DecisionMaking,implementierung,2,1.34
+2019,ML,DecisionMaking,modellierung,1,0.67
+2019,ML,DecisionMaking,testing,1,0.67
+2019,ML,Employee_Independence,selbstständig,1,0.67
+2019,ML,ForeignLanguage,deutsch,1,0.67
+2019,ML,ForeignLanguage,englisch,1,0.67
+2019,ML,Interpersonal,kooperation,1,0.67
+2019,ML,Interpersonal,zusammenarbeit,4,2.68
+2019,ML,MSOffice,kommunikation,1,0.67
+2019,ML,Numeracy,mathematik,3,2.01
+2019,ML,Occupational_EnterpriseSystem,crm,2,1.34
+2019,ML,Occupational_Hardware,architektur,2,1.34
+2019,ML,Occupational_Hardware,hardware,4,2.68
+2019,ML,Occupational_Hardware,storage,1,0.67
+2019,ML,Occupational_Programming,java,6,4.03
+2019,ML,Occupational_Programming,javascript,2,1.34
+2019,ML,Occupational_Programming,python,12,8.05
+2019,ML,Occupational_ProjectManagement,projektmanagement,3,2.01
+2019,ML,Occupational_Visualization,datenvisualisierung,1,0.67
+2019,ML,ProcessDesign,continuous improvement,1,0.67
+2019,ML,Research,datenanalyse,1,0.67
+2019,ML,Statistics,datenanalyse,1,0.67
+2019,ML,Statistics,matlab,2,1.34
+2019,ML,Statistics,statistik,1,0.67
+2019,ML,StructuredData,data management,1,0.67
+2019,ML,StructuredData,data warehouse,2,1.34
+2019,ML,StructuredData,mongodb,1,0.67
+2019,ML,StructuredData,mysql,2,1.34
+2019,ML,StructuredData,sql,2,1.34
+2019,Other,Analytical,data analytics,1,20.0
+2019,Other,Employee_Adaptability,flexible,1,20.0
+2019,Other,ForeignLanguage,deutsch,1,20.0
+2019,Other,Interpersonal,zusammenarbeit,1,20.0
+2019,Other,StructuredData,datenmanagement,1,20.0
+2025,AI,Analytical,analytisch,9,0.11
+2025,AI,Analytical,arcgis,2,0.02
+2025,AI,Analytical,business analytics,1,0.01
+2025,AI,Analytical,data analytics,80,0.96
+2025,AI,Analytical,datenanalyse,47,0.56
+2025,AI,Analytical,gis,8,0.1
+2025,AI,Analytical,google analytics,2,0.02
+2025,AI,Analytical,insight,23,0.28
+2025,AI,BigData,big data,150,1.8
+2025,AI,BigData,datenplattform,2,0.02
+2025,AI,BigData,datenströme,1,0.01
+2025,AI,BigData,hadoop,18,0.22
+2025,AI,BigData,hive,5,0.06
+2025,AI,BigData,nosql,38,0.46
+2025,AI,BigData,oozie,1,0.01
+2025,AI,BigData,presto,1,0.01
+2025,AI,BigData,spark,80,0.96
+2025,AI,BigData,unstructured data,10,0.12
+2025,AI,Communication_Generic,competitive,67,0.8
+2025,AI,Communication_Generic,determined,20,0.24
+2025,AI,Communication_Generic,responsible,62,0.74
+2025,AI,Communication_Generic,verantwortlich,20,0.24
+2025,AI,Communication_Generic,wettbewerbsfähig,1,0.01
+2025,AI,Communication_Presentation,present,28,0.34
+2025,AI,Communication_Presentation,presentation,25,0.3
+2025,AI,Communication_Presentation,präsentation,18,0.22
+2025,AI,Communication_Presentation,report,14,0.17
+2025,AI,Communication_Presentation,reporting,36,0.43
+2025,AI,Communication_Verbal,mündlich,5,0.06
+2025,AI,Communication_Verbal,oral,10,0.12
+2025,AI,Communication_Verbal,verbal,24,0.29
+2025,AI,Communication_Written,content creation,1,0.01
+2025,AI,Creativity,creative,50,0.6
+2025,AI,Creativity,innovativ,9,0.11
+2025,AI,Creativity,kreativ,7,0.08
+2025,AI,DataMining,anomalieerkennung,3,0.04
+2025,AI,DataMining,anomaly detection,11,0.13
+2025,AI,DataMining,association,10,0.12
+2025,AI,DataMining,associations,2,0.02
+2025,AI,DataMining,classification,16,0.19
+2025,AI,DataMining,classify,1,0.01
+2025,AI,DataMining,datenanalyse,47,0.56
+2025,AI,DataMining,decision trees,2,0.02
+2025,AI,DataMining,entscheidungsbäume,2,0.02
+2025,AI,DataMining,estimation,3,0.04
+2025,AI,DataMining,forecasting,21,0.25
+2025,AI,DataMining,machine learning,650,7.79
+2025,AI,DataMining,maschinelles lernen,14,0.17
+2025,AI,DataMining,outlier,1,0.01
+2025,AI,DataMining,prediction,19,0.23
+2025,AI,DataMining,prognose,2,0.02
+2025,AI,DataMining,text mining,2,0.02
+2025,AI,DataMining,vorhersage,2,0.02
+2025,AI,DecisionMaking,analyse,121,1.45
+2025,AI,DecisionMaking,analysis,139,1.67
+2025,AI,DecisionMaking,analytical,73,0.87
+2025,AI,DecisionMaking,analytisch,9,0.11
+2025,AI,DecisionMaking,design,498,5.97
+2025,AI,DecisionMaking,implementation,80,0.96
+2025,AI,DecisionMaking,implementierung,114,1.37
+2025,AI,DecisionMaking,modeling,53,0.64
+2025,AI,DecisionMaking,modellierung,27,0.32
+2025,AI,DecisionMaking,problem solving,76,0.91
+2025,AI,DecisionMaking,problemlösung,4,0.05
+2025,AI,DecisionMaking,reporting,36,0.43
+2025,AI,DecisionMaking,strategic thinking,4,0.05
+2025,AI,DecisionMaking,strategisches denken,2,0.02
+2025,AI,DecisionMaking,testen,13,0.16
+2025,AI,DecisionMaking,testing,98,1.17
+2025,AI,Employee_Adaptability,adaptable,4,0.05
+2025,AI,Employee_Adaptability,flexibel,37,0.44
+2025,AI,Employee_Adaptability,flexible,308,3.69
+2025,AI,Employee_Attitude,eigenverantwortlich,14,0.17
+2025,AI,Employee_Attitude,go getter,1,0.01
+2025,AI,Employee_Attitude,zielstrebig,1,0.01
+2025,AI,Employee_Confidence,confident,8,0.1
+2025,AI,Employee_Confidence,decisive,3,0.04
+2025,AI,Employee_DetailOriented,accuracy,29,0.35
+2025,AI,Employee_DetailOriented,genauigkeit,8,0.1
+2025,AI,Employee_DetailOriented,precision,12,0.14
+2025,AI,Employee_DetailOriented,präzision,1,0.01
+2025,AI,Employee_DetailOriented,sorgfalt,5,0.06
+2025,AI,Employee_Independence,autonomous,19,0.23
+2025,AI,Employee_Independence,eigenständig,22,0.26
+2025,AI,Employee_Independence,independent,38,0.46
+2025,AI,Employee_Independence,selbstständig,25,0.3
+2025,AI,Employee_Independence,unabhängig,49,0.59
+2025,AI,Employee_Motivation,ambition,3,0.04
+2025,AI,Employee_Motivation,continuous learning,23,0.28
+2025,AI,Employee_Motivation,ehrgeiz,1,0.01
+2025,AI,Employee_Motivation,ergebnisorientiert,1,0.01
+2025,AI,Employee_Motivation,kontinuierliches lernen,4,0.05
+2025,AI,Employee_Motivation,lernbereitschaft,5,0.06
+2025,AI,Employee_Motivation,motivated,63,0.75
+2025,AI,Employee_Motivation,motiviert,8,0.1
+2025,AI,Employee_Other,energiegeladen,1,0.01
+2025,AI,Employee_Other,high energy,5,0.06
+2025,AI,Employee_Other,proactive,45,0.54
+2025,AI,Employee_Other,proaktiv,7,0.08
+2025,AI,Employee_Other,reliable,30,0.36
+2025,AI,Employee_Other,zuverlässig,6,0.07
+2025,AI,Employee_TimeManagement,time management,5,0.06
+2025,AI,Employee_TimeManagement,timely manner,1,0.01
+2025,AI,ForeignLanguage,deutsch,170,2.04
+2025,AI,ForeignLanguage,englisch,89,1.07
+2025,AI,ForeignLanguage,foreign language,2,0.02
+2025,AI,ForeignLanguage,französisch,1,0.01
+2025,AI,ForeignLanguage,french,1,0.01
+2025,AI,ForeignLanguage,german,122,1.46
+2025,AI,ForeignLanguage,italian,1,0.01
+2025,AI,ForeignLanguage,spanisch,1,0.01
+2025,AI,ForeignLanguage,spanish,2,0.02
+2025,AI,Interpersonal,collaboration,145,1.74
+2025,AI,Interpersonal,cooperation,19,0.23
+2025,AI,Interpersonal,interpersonal,21,0.25
+2025,AI,Interpersonal,kooperation,16,0.19
+2025,AI,Interpersonal,networking,35,0.42
+2025,AI,Interpersonal,team management,2,0.02
+2025,AI,Interpersonal,zusammenarbeit,146,1.75
+2025,AI,MSOffice,communication,164,1.97
+2025,AI,MSOffice,documentation,49,0.59
+2025,AI,MSOffice,dokumentation,31,0.37
+2025,AI,MSOffice,excel,25,0.3
+2025,AI,MSOffice,kommunikation,41,0.49
+2025,AI,MSOffice,microsoft office,4,0.05
+2025,AI,MSOffice,ms office,14,0.17
+2025,AI,MSOffice,office suite,2,0.02
+2025,AI,MSOffice,powerpoint,10,0.12
+2025,AI,MSOffice,word,6,0.07
+2025,AI,Numeracy,buchhaltung,3,0.04
+2025,AI,Numeracy,finanzverwaltung,1,0.01
+2025,AI,Numeracy,mathematik,99,1.19
+2025,AI,Numeracy,rechnungswesen,2,0.02
+2025,AI,Occupational_EnterpriseSystem,crm,11,0.13
+2025,AI,Occupational_EnterpriseSystem,erp,23,0.28
+2025,AI,Occupational_EnterpriseSystem,integration,358,4.29
+2025,AI,Occupational_EnterpriseSystem,oracle,8,0.1
+2025,AI,Occupational_EnterpriseSystem,saas,27,0.32
+2025,AI,Occupational_EnterpriseSystem,sap,30,0.36
+2025,AI,Occupational_EnterpriseSystem,unternehmenssoftware,1,0.01
+2025,AI,Occupational_Hardware,architecture,77,0.92
+2025,AI,Occupational_Hardware,architektur,37,0.44
+2025,AI,Occupational_Hardware,desktop,3,0.04
+2025,AI,Occupational_Hardware,devices,26,0.31
+2025,AI,Occupational_Hardware,drucker,5,0.06
+2025,AI,Occupational_Hardware,geräte,6,0.07
+2025,AI,Occupational_Hardware,hardware,126,1.51
+2025,AI,Occupational_Hardware,legacy,2,0.02
+2025,AI,Occupational_Hardware,pc,2,0.02
+2025,AI,Occupational_Hardware,server,36,0.43
+2025,AI,Occupational_Hardware,speicher,2,0.02
+2025,AI,Occupational_Hardware,storage,34,0.41
+2025,AI,Occupational_Hardware,system architecture,4,0.05
+2025,AI,Occupational_Hardware,systemarchitektur,2,0.02
+2025,AI,Occupational_Modeling,neural networks,20,0.24
+2025,AI,Occupational_Modeling,neuronale netze,5,0.06
+2025,AI,Occupational_Networks,cloud computing,66,0.79
+2025,AI,Occupational_Networks,distributed computing,6,0.07
+2025,AI,Occupational_Networks,internet,26,0.31
+2025,AI,Occupational_Networks,lan,4,0.05
+2025,AI,Occupational_Networks,network security,2,0.02
+2025,AI,Occupational_Networks,networking,35,0.42
+2025,AI,Occupational_Networks,netzwerk,26,0.31
+2025,AI,Occupational_Networks,netzwerke,11,0.13
+2025,AI,Occupational_Networks,tcp ip,1,0.01
+2025,AI,Occupational_Networks,wan,2,0.02
+2025,AI,Occupational_Programming,bash,24,0.29
+2025,AI,Occupational_Programming,fortran,1,0.01
+2025,AI,Occupational_Programming,java,126,1.51
+2025,AI,Occupational_Programming,javascript,68,0.81
+2025,AI,Occupational_Programming,perl,2,0.02
+2025,AI,Occupational_Programming,programmieren,5,0.06
+2025,AI,Occupational_Programming,programmierung,35,0.42
+2025,AI,Occupational_Programming,python,858,10.28
+2025,AI,Occupational_Programming,scala,26,0.31
+2025,AI,Occupational_Programming,vba,3,0.04
+2025,AI,Occupational_ProjectManagement,change management,3,0.04
+2025,AI,Occupational_ProjectManagement,cpm,1,0.01
+2025,AI,Occupational_ProjectManagement,project documentation,1,0.01
+2025,AI,Occupational_ProjectManagement,project management,19,0.23
+2025,AI,Occupational_ProjectManagement,projektmanagement,32,0.38
+2025,AI,Occupational_Scraping,scraping,5,0.06
+2025,AI,Occupational_Scraping,web scraping,6,0.07
+2025,AI,Occupational_Visualization,berichte,3,0.04
+2025,AI,Occupational_Visualization,d3,1,0.01
+2025,AI,Occupational_Visualization,datenvisualisierung,8,0.1
+2025,AI,Occupational_Visualization,powerbi,12,0.14
+2025,AI,Occupational_Visualization,tableau,52,0.62
+2025,AI,Occupational_Visualization,visualization,28,0.34
+2025,AI,ProblemSolving,critical thinker,1,0.01
+2025,AI,ProblemSolving,kritisches denken,1,0.01
+2025,AI,ProblemSolving,problem solving,76,0.91
+2025,AI,ProblemSolving,problemlösung,4,0.05
+2025,AI,ProblemSolving,troubleshoot,12,0.14
+2025,AI,ProcessDesign,continuous improvement,31,0.37
+2025,AI,ProcessDesign,kontinuierliche verbesserung,5,0.06
+2025,AI,ProcessDesign,operations management,3,0.04
+2025,AI,ProcessDesign,prozessdesign,2,0.02
+2025,AI,ProcessDesign,prozessverbesserung,2,0.02
+2025,AI,Research,data collection,5,0.06
+2025,AI,Research,data gathering,1,0.01
+2025,AI,Research,datenanalyse,47,0.56
+2025,AI,Research,datenerhebung,4,0.05
+2025,AI,Research,monitor performance,1,0.01
+2025,AI,Research,recherche,8,0.1
+2025,AI,Statistics,datenanalyse,47,0.56
+2025,AI,Statistics,excel,25,0.3
+2025,AI,Statistics,hypothesis testing,2,0.02
+2025,AI,Statistics,matlab,40,0.48
+2025,AI,Statistics,pandas,52,0.62
+2025,AI,Statistics,probability,5,0.06
+2025,AI,Statistics,python pandas,2,0.02
+2025,AI,Statistics,regression,22,0.26
+2025,AI,Statistics,sas,5,0.06
+2025,AI,Statistics,scipy,8,0.1
+2025,AI,Statistics,splunk,2,0.02
+2025,AI,Statistics,spss,1,0.01
+2025,AI,Statistics,stata,2,0.02
+2025,AI,Statistics,statistical programming,1,0.01
+2025,AI,Statistics,statistics,48,0.58
+2025,AI,Statistics,statistik,50,0.6
+2025,AI,StructuredData,cassandra,1,0.01
+2025,AI,StructuredData,data management,27,0.32
+2025,AI,StructuredData,data model,1,0.01
+2025,AI,StructuredData,data warehouse,16,0.19
+2025,AI,StructuredData,datenmanagement,11,0.13
+2025,AI,StructuredData,datenmodell,1,0.01
+2025,AI,StructuredData,db2,1,0.01
+2025,AI,StructuredData,mongodb,19,0.23
+2025,AI,StructuredData,mysql,32,0.38
+2025,AI,StructuredData,oracle,8,0.1
+2025,AI,StructuredData,postgresql,40,0.48
+2025,AI,StructuredData,relational database,5,0.06
+2025,AI,StructuredData,sql,272,3.26
+2025,AI,StructuredData,sql server,6,0.07
+2025,AI,StructuredData,transactional database,1,0.01
+2025,ML,Analytical,datenanalyse,2,2.25
+2025,ML,BigData,big data,2,2.25
+2025,ML,BigData,hadoop,2,2.25
+2025,ML,BigData,spark,2,2.25
+2025,ML,Communication_Presentation,report,1,1.12
+2025,ML,Communication_Presentation,reporting,1,1.12
+2025,ML,DataMining,datenanalyse,2,2.25
+2025,ML,DataMining,machine learning,8,8.99
+2025,ML,DataMining,prognose,1,1.12
+2025,ML,DecisionMaking,analyse,4,4.49
+2025,ML,DecisionMaking,implementierung,1,1.12
+2025,ML,DecisionMaking,modellierung,1,1.12
+2025,ML,DecisionMaking,reporting,1,1.12
+2025,ML,DecisionMaking,testen,1,1.12
+2025,ML,Employee_Adaptability,flexible,5,5.62
+2025,ML,Employee_Attitude,eigenverantwortlich,1,1.12
+2025,ML,Employee_Confidence,selbstbewusst,1,1.12
+2025,ML,Employee_Independence,eigenständig,2,2.25
+2025,ML,Employee_Independence,unabhängig,2,2.25
+2025,ML,Employee_Motivation,motiviert,1,1.12
+2025,ML,Employee_Other,proaktiv,1,1.12
+2025,ML,ForeignLanguage,deutsch,2,2.25
+2025,ML,ForeignLanguage,englisch,1,1.12
+2025,ML,Interpersonal,zusammenarbeit,4,4.49
+2025,ML,Numeracy,mathematik,2,2.25
+2025,ML,Numeracy,rechnungswesen,1,1.12
+2025,ML,Occupational_EnterpriseSystem,integration,6,6.74
+2025,ML,Occupational_EnterpriseSystem,sap,1,1.12
+2025,ML,Occupational_Modeling,neuronale netze,1,1.12
+2025,ML,Occupational_Networks,internet,1,1.12
+2025,ML,Occupational_Networks,netzwerk,1,1.12
+2025,ML,Occupational_Programming,bash,2,2.25
+2025,ML,Occupational_Programming,java,2,2.25
+2025,ML,Occupational_Programming,python,8,8.99
+2025,ML,Occupational_Programming,vba,1,1.12
+2025,ML,Occupational_Visualization,tableau,2,2.25
+2025,ML,ProcessDesign,kontinuierliche verbesserung,1,1.12
+2025,ML,Research,datenanalyse,2,2.25
+2025,ML,Statistics,datenanalyse,2,2.25
+2025,ML,Statistics,pandas,1,1.12
+2025,ML,Statistics,statistik,1,1.12
+2025,ML,StructuredData,datenmanagement,1,1.12
+2025,ML,StructuredData,sql,4,4.49

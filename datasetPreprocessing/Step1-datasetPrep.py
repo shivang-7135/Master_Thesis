@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # ---------------------------
 # Replace with your file paths
 df_2025 = pd.read_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/dataset_indeed_2025-07-07.csv")
-df_2019 = pd.read_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/jobs_2019.csv")
+df_2019 = pd.read_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/data/jobs_2019.csv")
 
 # ---------------------------
 # 2. Preprocess 2019 dataset

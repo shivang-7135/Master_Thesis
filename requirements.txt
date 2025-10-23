@@ -1,0 +1,6 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+urllib3>=2.2.2
+warcio>=1.7.4
+tqdm>=4.66.4
+pandas>=2.2.2

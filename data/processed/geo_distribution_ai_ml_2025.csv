@@ -1,0 +1,17 @@
+Rank,State (AI),Percentage (AI),State (ML),Percentage (ML)
+1,Bayern,21.34,Nordrhein-Westfalen,21.02
+2,Nordrhein-Westfalen,20.69,Bayern,20.37
+3,Berlin,19.5,Berlin,19.58
+4,Baden-Württemberg,16.86,Baden-Württemberg,17.61
+5,Hessen,7.77,Hessen,7.36
+6,Hamburg,3.03,Hamburg,3.02
+7,Sachsen,2.11,Sachsen,2.1
+8,Niedersachsen,1.71,Niedersachsen,1.71
+9,Bremen,1.45,Bremen,1.58
+10,Schleswig-Holstein,1.19,Schleswig-Holstein,1.18
+11,Rheinland-Pfalz,1.19,Rheinland-Pfalz,1.18
+12,Thüringen,1.05,Thüringen,1.05
+13,Brandenburg,0.66,Sachsen-Anhalt,0.66
+14,Saarland,0.53,Brandenburg,0.66
+15,Sachsen-Anhalt,0.53,Saarland,0.53
+16,Mecklenburg-Vorpommern,0.4,Mecklenburg-Vorpommern,0.39
