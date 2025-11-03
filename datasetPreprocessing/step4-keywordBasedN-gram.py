@@ -36,7 +36,7 @@ def make_ngrams(tokens):
     return unigrams + bigrams + trigrams
 
 # ---------------------------------
-# 2️⃣ SKILL DICTIONARY (based on Verma et al.)
+# 2️ SKILL DICTIONARY (based on Verma et al.)
 # ---------------------------------
 skill_dict = {
     # ---------------- COMMUNICATION ----------------
@@ -207,7 +207,7 @@ skill_dict = {
 
 
 # ---------------------------------
-# 3️⃣ MATCH SKILLS FUNCTION
+# 3️ MATCH SKILLS FUNCTION
 # ---------------------------------
 def match_skills(text, skill_dict):
     tokens = tokenize(text)
@@ -220,7 +220,7 @@ def match_skills(text, skill_dict):
     return found
 
 # ---------------------------------
-# 4️⃣ PROCESS COMBINED DATASET
+# 4️ PROCESS COMBINED DATASET
 # ---------------------------------
 def extract_skills_combined(input_file):
     df = pd.read_csv(input_file)
@@ -243,8 +243,8 @@ def extract_skills_combined(input_file):
         results.extend([(row["year"], row.get("job_domain_keywords", ""), c, k) for c, k in matches])
 
     # Save enriched dataset
-    os.makedirs("data/finaldataset/processed", exist_ok=True)
-    df.to_csv("data/finaldataset/processed/jobs_with_skills_combined.csv", index=False)
+    os.makedirs("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/data/processed", exist_ok=True)
+    df.to_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/data/processed/jobs_with_skills_combined.csv", index=False)
     print("✅ Added 'skills_found' and 'skill_categories' columns.")
 
     # Create skill frequency tables per year & domain (AI/ML)
@@ -265,13 +265,13 @@ def extract_skills_combined(input_file):
         .reset_index(drop=True)
     )
 
-    summary.to_csv("data/processed/skill_summary_by_year_domain.csv", index=False)
+    summary.to_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/data/processed/skill_summary_by_year_domain.csv", index=False)
     print("📊 Saved skill_summary_by_year_domain.csv")
 
     return df, summary
 
 
-df, summary = extract_skills_combined("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/data/finaldataset/jobs_ai_ml_with_city_state.csv")
+df, summary = extract_skills_combined("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/jobs_ai_ml_with_city_state_filled.csv")
 
 
 trend = summary.groupby(["year","skill"])["count"].sum().unstack(fill_value=0)

@@ -19,8 +19,8 @@ import re, os
 # ------------------------------
 # 1️⃣ Load dataset
 # ------------------------------
-INPUT_FILE = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/data/finaldataset/processed/jobs_with_skills_combined.csv"   # adjust as needed
-OUTPUT_DIR = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/data/finaldataset/processed"
+INPUT_FILE = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/data/processed/jobs_with_skills_combined.csv"   # adjust as needed
+OUTPUT_DIR = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/data/processed"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 df = pd.read_csv(INPUT_FILE)

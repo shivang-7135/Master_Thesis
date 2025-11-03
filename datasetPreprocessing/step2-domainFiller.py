@@ -14,8 +14,8 @@ import os
 # -------------------------------
 # 1️⃣ Load dataset
 # -------------------------------
-INPUT_PATH = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/data/filtered/jobs_2019_with_titles.csv"
-OUTPUT_DIR = "data/finaldataset"
+INPUT_PATH = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/filtered_unified_jobs_dataset-2019-2025.csv"
+OUTPUT_DIR = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 df = pd.read_csv(INPUT_PATH)

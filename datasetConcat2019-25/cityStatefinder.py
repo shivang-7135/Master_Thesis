@@ -1,18 +1,16 @@
 """
-add_city_state_from_text.py
-Extracts German city & state from location/title/text with umlaut/alias support.
+Finds and fills missing city/state information using job descriptions from another CSV file
 """
-import re
-import unicodedata
 import pandas as pd
+import unicodedata
+import re
 import requests
 import time
 
-# ---------- IO ----------
-INFILE  = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/jobs_with_ai_ml_tags.csv"   # or your current file
-OUTFILE = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/jobs_ai_ml_with_city_state.csv"
-
-df = pd.read_csv(INFILE)
+# File paths
+PRIMARY_CSV = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/jobs_ai_ml_with_city_state.csv"
+SECONDARY_CSV = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/filtered_jobs_2019.csv"
+OUTPUT_CSV = "/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/jobs_ai_ml_with_city_state_filled.csv"
 
 # ---------- HELPERS ----------
 def normalize(s: str) -> str:
@@ -30,7 +28,6 @@ def wb(pat: str) -> re.Pattern:
     else:
         pattern = rf"(?<!\w){esc}(?!\w)"
     return re.compile(pattern)
-
 
 # ---------- states (Bundesländer) with aliases ----------
 STATE_ALIASES = {
@@ -88,6 +85,12 @@ CITY_TO_STATE = {
     "Landshut": "Bayern",
     "Bamberg": "Bayern",
     "Bayreuth": "Bayern",
+    "Alzenau": "Bayern",
+    "Aschaffenburg": "Bayern",
+    "Schweinfurt": "Bayern",
+    "Kempten": "Bayern",
+    "Coburg": "Bayern",
+    "Memmingen": "Bayern",
     # BW
     "Stuttgart": "Baden-Württemberg",
     "Karlsruhe": "Baden-Württemberg",
@@ -101,6 +104,10 @@ CITY_TO_STATE = {
     "Konstanz": "Baden-Württemberg",
     "Sindelfingen": "Baden-Württemberg",
     "Böblingen": "Baden-Württemberg",
+    "Esslingen": "Baden-Württemberg",
+    "Pforzheim": "Baden-Württemberg",
+    "Lörrach": "Baden-Württemberg",
+    "Rastatt": "Baden-Württemberg",
     # HE
     "Frankfurt am Main": "Hessen",
     "Wiesbaden": "Hessen",
@@ -132,6 +139,8 @@ CITY_TO_STATE = {
     "Mainz": "Rheinland-Pfalz",
     "Koblenz": "Rheinland-Pfalz",
     "Trier": "Rheinland-Pfalz",
+    "Ingelheim": "Rheinland-Pfalz",
+    "Bellheim": "Rheinland-Pfalz",
     # SH
     "Kiel": "Schleswig-Holstein",
     "Lübeck": "Schleswig-Holstein",
@@ -157,8 +166,8 @@ CITY_ALIASES = {
     "Göttingen": ["göttingen","goettingen","gottingen"],
     "Lübeck": ["lübeck","luebeck","lubeck"],
     "Saarbrücken": ["saarbrücken","saarbruecken","saarbrucken"],
-    # add one-to-one aliases for all canonical keys not listed above
 }
+
 # ensure every canonical has at least itself as alias
 for city in list(CITY_TO_STATE.keys()):
     CITY_ALIASES.setdefault(city, [city])
@@ -170,7 +179,6 @@ for canon_city, aliases in CITY_ALIASES.items():
     for a in aliases:
         CITY_PATTERNS.append((canon_city, state, wb(normalize(a))))
 
-# ---------- NOMINATIM FALLBACK ----------
 def geocode_location(loc: str):
     """Query OSM Nominatim for city/state when not found locally."""
     url = "https://nominatim.openstreetmap.org/search"
@@ -186,36 +194,67 @@ def geocode_location(loc: str):
         pass
     return "", ""
 
-# ---------- EXTRACTION FUNCTION ----------
-def extract_city_state(row):
-    loc = str(row.get("location", "") or "")
-    text = str(row.get("job_text", "") or "")
-    title = str(row.get("job_title", "") or "")
-    all_text = f"{loc} {title} {text}"
+def extract_city_state(text):
+    """Extract city and state from given text."""
+    if not text:
+        return "", ""
 
-    norm_text = normalize(all_text)
+    norm_text = normalize(text)
 
-    # # 1️⃣ Skip Germany-only locations
-    # if re.fullmatch(r"(germany|deutschland)", normalize(loc)):
-    #     return pd.Series({"city": "", "state": "Germany"})
-
-    # 2️⃣ Try local dictionary (fast)
+    # Try local dictionary (fast)
     for city, state, pat in CITY_PATTERNS:
         if pat.search(norm_text):
-            return pd.Series({"city": city, "state": state})
+            return city, state
 
-    # 3️⃣ API fallback (for non-empty, non-Germany locations)
-    if loc.strip() and len(loc.strip()) > 2:
-        city, state = geocode_location(loc)
-        if city or state:
-            time.sleep(1)  # rate limit for Nominatim
-            return pd.Series({"city": city, "state": state})
+    # Try state patterns
+    for state, pat in STATE_PATTERNS:
+        if pat.search(norm_text):
+            return "", state
 
-    return pd.Series({"city": "", "state": ""})
+    return "", ""
 
-# ---------- APPLY ----------
-df[["city", "state"]] = df.apply(extract_city_state, axis=1)
-df.to_csv(OUTFILE, index=False)
+def main():
+    print("Loading CSV files...")
+    # Load primary CSV with missing city/state info
+    df_primary = pd.read_csv(PRIMARY_CSV)
+    
+    # Load secondary CSV with job descriptions
+    df_secondary = pd.read_csv(SECONDARY_CSV)
 
-print(f"✅ Saved enriched file: {OUTFILE}")
-print(df[["location","city","state"]].head(10))
+    # Create a mapping from job_id to job_description
+    job_desc_map = df_secondary.set_index('job_id')['job_description'].to_dict()
+
+    # Counter for updates
+    updates = 0
+    
+    print("Processing rows with missing city/state information...")
+    # Iterate through primary dataframe rows that have missing city or state
+    for idx, row in df_primary.iterrows():
+        if pd.isna(row['city']) or pd.isna(row['state']) or row['city'] == '' or row['state'] == '':
+            # Try to find corresponding job in secondary CSV
+            job_id = row['job_id']
+            if job_id in job_desc_map:
+                # Get job description from secondary CSV
+                job_desc = job_desc_map[job_id]
+                
+                # Try to extract city and state from job description
+                extracted_city, extracted_state = extract_city_state(job_desc)
+                
+                # Update if we found something
+                if extracted_city or extracted_state:
+                    if extracted_city:
+                        df_primary.at[idx, 'city'] = extracted_city
+                    if extracted_state:
+                        df_primary.at[idx, 'state'] = extracted_state
+                    updates += 1
+
+                    if updates % 100 == 0:
+                        print(f"Processed {updates} updates...")
+
+    print(f"Completed processing. Made {updates} updates.")
+    print(f"Saving results to {OUTPUT_CSV}")
+    df_primary.to_csv(OUTPUT_CSV, index=False)
+    print("Done!")
+
+if __name__ == "__main__":
+    main()

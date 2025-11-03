@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # ---------------------------
 # Replace with your file paths
 df_2025 = pd.read_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/dataset_indeed_2025-07-07.csv")
-df_2019 = pd.read_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/data/jobs_2019.csv")
+df_2019 = pd.read_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasets/jobs_with_clean_german_descriptions_incremental_task.csv")
 
 # ---------------------------
 # 2. Preprocess 2019 dataset
@@ -27,17 +27,17 @@ df_2019["job_id"] = df_2019["job_id"].fillna("")
 df_2019["year"] = 2019
 
 # Clean and combine text
-df_2019["job_title"] = df_2019["job_title"].fillna("")
+df_2019["job_title"] = df_2019["job_title_updated"].fillna("")
 df_2019["company"] = df_2019["company"].fillna("")
-df_2019["location"] = df_2019["location"].fillna("")
+df_2019["location"] = df_2019["location_updated"].fillna("")
 df_2019["job_text"] = (
-    df_2019["job_title"].astype(str) + " " + df_2019["job_description"].astype(str)
+    df_2019["job_title"].astype(str) + " " + df_2019["job_description_clean"].astype(str)
 ).apply(clean_text)
 
-# Ensure skills_required exists
-if "skills_required" not in df_2019.columns:
-    df_2019["skills_required"] = ""
-df_2019["skills_required"] = df_2019["skills_required"].fillna("")
+# Ensure matched_keywords exists
+if "matched_keywords" not in df_2019.columns:
+    df_2019["matched_keywords"] = ""
+df_2019["matched_keywords"] = df_2019["matched_keywords"].fillna("")
 
 # Posting date handling
 if "posting_date" in df_2019.columns:
@@ -47,7 +47,7 @@ elif "archive_timestamp" in df_2019.columns:
 else:
     df_2019["posting_date"] = pd.NaT
 
-df_2019 = df_2019[["job_id", "year", "job_title", "company", "location", "job_text", "skills_required", "posting_date"]]
+df_2019 = df_2019[["job_id", "year", "job_title", "company", "location", "job_text", "matched_keywords", "posting_date"]]
 
 # ---------------------------
 # 4. Preprocess 2025 dataset
@@ -63,8 +63,8 @@ df_2025["location"] = df_2025.get("location", "").fillna("")
 df_2025["job_text"] = (
     df_2025["job_title"].astype(str) + " " + df_2025["description"].astype(str)
 ).apply(clean_text)
-# No skills_required in 2025
-df_2025["skills_required"] = ""
+# No matched_keywords in 2025
+df_2025["matched_keywords"] = ""
 
 # Normalize posting date
 # if "postedAt" in df_2025.columns:
@@ -76,7 +76,7 @@ else:
     df_2025["posting_date"] = pd.NaT
 
 
-df_2025 = df_2025[["job_id", "year", "job_title", "company", "location", "job_text", "skills_required", "posting_date"]]
+df_2025 = df_2025[["job_id", "year", "job_title", "company", "location", "job_text", "matched_keywords", "posting_date"]]
 
 # ---------------------------
 # 5. Concatenate unified dataset
@@ -86,7 +86,7 @@ df_all = pd.concat([df_2019, df_2025], ignore_index=True)
 # ---------------------------
 # 6. Save output
 # ---------------------------
-df_all.to_csv("unified_jobs_dataset.csv", index=False)
+df_all.to_csv("/Users/shivangsinha/Downloads/Drive A/Thesis/Master_Thesis/datasetConcat2019-25/unified_jobs_dataset-2019-2025.csv", index=False)
 
-print("✅ Preprocessing complete. Unified dataset saved as unified_jobs_dataset.csv")
+print("✅ Preprocessing complete. Unified dataset saved as unified_jobs_dataset-2019-2025.csv")
 print(df_all.sample(5))
