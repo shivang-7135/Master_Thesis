@@ -1,0 +1,4 @@
+# Ignore the Bert_analysis/others directory at the repo root
+/Bert_analysis/others/
+.DS_Store
+/BERT_model

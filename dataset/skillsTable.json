@@ -1,0 +1,285 @@
+{
+    "skill_dict": {
+        "Communication": {
+            "Written": [
+                "copywriting", "editing", "blogging", "content creation", "story ideation",
+                "textverfassung", "korrekturlesen", "bloggen", "inhalts­erstellung", "geschichtsideen"
+            ],
+            "Verbal": [
+                "verbal", "oral", "cold calling",
+                "mündlich", "telefonakquise", "telefonverkauf", "kundenanruf"
+            ],
+            "Presentation": [
+                "presentation", "present", "report",
+                "präsentation", "vortrag", "bericht", "reporting"
+            ],
+            "Generic": [
+                "responsible", "determined", "competitive", "witty", "success oriented",
+                "verantwortlich", "entschlossen", "wettbewerbsfähig", "witzig", "erfolgsorientiert"
+            ]
+        },
+        "Employee Attributes": {
+            "Motivation": [
+                "motivated", "ambition", "willingness to learn", "delivering result", "continuous learning",
+                "motiviert", "ehrgeiz", "lernbereitschaft", "ergebnisorientiert", "kontinuierliches lernen"
+            ],
+            "TimeManagement": [
+                "time management", "timely manner", "prioritize time", "deadline driven",
+                "zeitmanagement", "fristgerecht", "zeitpriorisierung", "termintreu"
+            ],
+            "DetailOriented": [
+                "attention to detail", "eye for detail", "accuracy", "precision",
+                "detailgenauigkeit", "präzision", "sorgfalt", "genauigkeit"
+            ],
+            "Attitude": [
+                "can do", "go getter", "self learner", "self directed", "positive attitude",
+                "anpackend", "zielstrebig", "selbstlerner", "eigenverantwortlich", "positive einstellung"
+            ],
+            "Independence": [
+                "independent", "without supervision", "autonomous",
+                "unabhängig", "eigenständig", "selbstständig", "ohne aufsicht"
+            ],
+            "Adaptability": [
+                "adaptable", "flexible", "multitasking",
+                "anpassungsfähig", "flexibel", "multitasking", "vielseitig"
+            ],
+            "Confidence": [
+                "confident", "decisive",
+                "selbstbewusst", "entscheidungsfreudig"
+            ],
+            "Other": [
+                "funny", "smiling", "high energy", "reliable", "proactive",
+                "lustig", "lächelnd", "energiegeladen", "zuverlässig", "proaktiv"
+            ]
+        },
+        "Occupational Attributes": {
+            "EnterpriseSystem": [
+                "erp", "crm", "scm", "sap", "peoplesoft", "oracle", "integration", "saas",
+                "unternehmenssoftware", "crm system", "sap system", "oracle datenbank", "integration", "saas lösung"
+            ],
+            "Visualization": [
+                "visualization", "tableau", "lumira", "crystal reports", "d3", "d3.js", "power bi",
+                "datenvisualisierung", "tableau", "powerbi", "berichte", "diagramme"
+            ],
+            "Programming": [
+                "mathematical programming", "scala", "python", "c#", "c++", "vb", "excel macros",
+                "perl", "c", "java", "visual basic", "vb.net", "vba", "cobol", "fortran", "s", "splus", "bash", "javascript", "asp.net", "jquery", "jboss",
+                "programmierung", "python", "java", "scala", "c plus plus", "javascript", "programmieren", "bash", "skripting"
+            ],
+            "ProjectManagement": [
+                "project management", "pert", "cpm", "change management", "project budget",
+                "project documentation", "pmp", "microsoft project", "gantt chart",
+                "projektmanagement", "projektplanung", "änderungsmanagement", "projektbudget", "projekt­dokumentation", "pmp zertifizierung", "projektplan", "gantt diagramm"
+            ],
+            "Modeling": [
+                "neural networks", "linear programming", "integer programming", "goal programming",
+                "queuing", "genetic algorithms", "expert systems",
+                "neuronale netze", "lineare programmierung", "ganzzahlprogrammierung",
+                "zielprogrammierung", "warteschlangen", "genetische algorithmen", "experten­systeme"
+            ],
+            "Scraping": [
+                "scraping", "web scraping", "crawling", "web crawling",
+                "datenextraktion", "web scraping", "daten crawling", "web crawler"
+            ],
+            "Hardware": [
+                "hardware", "architecture", "devices", "printer", "storage", "desktop", "pc", "server", "workstation", "mainframe", "legacy", "system architecture",
+                "hardware", "architektur", "geräte", "drucker", "speicher", "server", "arbeitsstation", "hauptrechner", "systemarchitektur"
+            ],
+            "Networks": [
+                "internet", "lan", "wan", "networking", "cloud computing", "client server",
+                "distributed computing", "network security", "ubiquitous computing", "tcp/ip",
+                "netzwerk", "netzwerke", "lan", "wan", "cloud computing", "client server", "verteiltes rechnen", "netzwerksicherheit", "tcp ip"
+            ]
+        },
+        "Statistics and Data": {
+            "Statistics": [
+                "statistics", "spss", "sas", "excel", "stata", "matlab", "probability", "hypothesis testing",
+                "regression", "pandas", "scipy", "scikits learn", "splunk", "h2o", "r", "statistical programming",
+                "statistik", "wahrscheinlichkeit", "hypothesentest", "regression", "datenanalyse", "r", "matlab", "python pandas", "statistische programmierung"
+            ],
+            "DataMining": [
+                "classification", "text mining", "web mining", "stream mining", "knowledge discovery",
+                "anomaly detection", "associations", "outlier", "classify", "association", "estimation",
+                "prediction", "forecasting", "machine learning", "decision trees",
+                "datenanalyse", "text mining", "web mining", "strom daten", "wissensentdeckung",
+                "anomalieerkennung", "assoziationen", "ausreißer", "vorhersage", "prognose", "maschinelles lernen", "entscheidungsbäume"
+            ],
+            "StructuredData": [
+                "sql", "relational database", "oracle", "sql server", "db2", "microsoft access", "data model",
+                "data management", "entity relationship", "data warehouse", "dbms", "transactional database",
+                "cassandra", "mongodb", "mysql", "postgresql",
+                "sql", "relationale datenbank", "oracle datenbank", "mysql", "postgresql", "datenmanagement", "datenmodell", "data warehouse", "dbms"
+            ],
+            "BigData": [
+                "big data", "unstructured data", "data variety", "data velocity", "data volume",
+                "hadoop", "hive", "pig", "spark", "mapreduce", "presto", "mahout", "nosql", "oozie", "zookeeper", "flume",
+                "big data", "unstrukturierte daten", "datenvielfalt", "datenvolumen", "hadoop", "spark", "mapreduce", "nosql", "datenströme", "datenplattform"
+            ]
+        },
+        "Decision Making and Analytical": {
+            "DecisionMaking": [
+                "reporting", "analysis", "modeling", "design", "problem solving", "implementation",
+                "testing", "analytical", "strategic thinking",
+                "analyse", "modellierung", "design", "problemlösung", "implementierung", "testen", "analytisch", "strategisches denken"
+            ],
+            "MSOffice": [
+                "ms office", "powerpoint", "word", "communication", "documentation",
+                "microsoft office", "powerpoint", "word", "excel", "office suite", "kommunikation", "dokumentation"
+            ],
+            "Interpersonal": [
+                "interpersonal", "team management", "collaboration", "cooperation", "networking", "client relationship",
+                "zwischenmenschlich", "teamführung", "zusammenarbeit", "kooperation", "netzwerkpflege", "kundenbeziehung"
+            ],
+            "ProblemSolving": [
+                "problem solving", "troubleshoot", "conflict resolution", "solve issue", "critical thinker",
+                "problemlösung", "störungsbehebung", "konfliktlösung", "kritisches denken"
+            ],
+            "Creativity": [
+                "creative", "out of box", "storyteller",
+                "kreativ", "innovativ", "geschichtenerzähler", "ideenreich"
+            ],
+            "ProcessDesign": [
+                "design process", "improve process", "continuous improvement", "operations management",
+                "prozessdesign", "prozessverbesserung", "kontinuierliche verbesserung", "betriebsführung"
+            ],
+            "Administrative": [
+                "issue management", "posting schedule", "product launch", "social calendar",
+                "administrativ", "terminplanung", "produktstart", "social media kalender"
+            ],
+            "Analytical": [
+                "insight", "identify trend", "summarize finding", "analyze trend", "synthesize information",
+                "draw conclusion", "propose solution", "google analytics", "arcgis", "gis", "qgis",
+                "data analytics", "business analytics",
+                "analytisch", "trend erkennen", "schlussfolgerung ziehen", "lösung vorschlagen", "datenanalyse", "geschäftsanalyse", "google analytics", "gis", "qgis"
+            ]
+        },
+        "General": {
+            "Research": [
+                "data gathering", "data collection", "data reporting", "monitor trend", "monitor performance",
+                "recherche", "datenerhebung", "datenanalyse", "leistung überwachen", "trendanalyse"
+            ],
+            "Numeracy": [
+                "numeracy", "financial management", "bookkeeping", "accountancy",
+                "mathematik", "finanzverwaltung", "buchhaltung", "rechnungswesen"
+            ],
+            "ForeignLanguage": [
+                "foreign language", "spanish", "french", "german", "italian", "chinese", "english",
+                "fremdsprache", "spanisch", "französisch", "deutsch", "italienisch", "chinesisch", "englisch"
+            ]
+        },
+        "Generative AI": {
+            "LLM": [
+                "llm", "large language model", "generative ai", "gpt", "bert", "transformer", "diffusion model", "mistral", "llama", "falcon", "mixtral", "claude", "gemini", "deepseek",
+                "große sprachmodelle", "generative ki", "transformer-modell", "diffusionsmodell", "mistral", "llama", "falcon", "claude", "gemini"
+            ],
+            "Techniques": [
+                "prompt engineering", "fine-tuning", "rag", "retrieval-augmented generation", "in-context learning", "few-shot", "chain of thought", "tool calling", "function calling", "quantization", "distillation", "pruning", "speculative decoding",
+                "prompt-engineering", "feinabstimmung", "abruf-augmentierte generation", "in-kontext lernen", "quantisierung", "distillation", "pruning", "spekulatives dekodieren"
+            ],
+            "Tools": [
+                "langchain", "llamaindex", "hugging face", "openai api", "stable diffusion", "midjourney", "dall-e", "ollama", "haystack", "transformers", "sentence transformers", "vllm", "openai", "bedrock", "groq",
+                "huggingface", "ollama", "haystack", "transformers", "vllm"
+            ],
+            "VectorRetrieval": [
+                "vector database", "vector db", "pinecone", "weaviate", "milvus", "chroma", "qdrant", "pgvector", "redis vector", "vespa", "faiss", "annoy", "hnsw", "similarity search", "embedding store",
+                "vektor datenbank", "vektor db", "pinecone", "weaviate", "milvus", "chroma", "qdrant", "pgvector", "redis vektor", "ähnlichkeitssuche", "embedding speicher"
+            ],
+            "Agents": [
+                "ai agent", "agent framework", "multi-agent", "langgraph", "autogen", "crew ai", "smolagents", "function agent", "planning agent", "memory agent",
+                "ki agent", "agenten framework", "mehrere agenten", "langgraph", "autogen", "crew ai"
+            ],
+            "EvaluationMonitoring": [
+                "model evaluation", "prompt evaluation", "hallucination detection", "guardrails", "toxicity filter", "evidently ai", "arize", "whylogs", "mlflow evaluation", "trulens", "langsmith", "model monitoring", "trace analysis",
+                "prompt bewertung", "halluzinations-erkennung", "schutzschienen", "toxizität filter", "modellüberwachung", "protokollanalyse"
+            ],
+            "Serving": [
+                "model serving", "inference", "batch inference", "real-time inference", "fastapi", "ray serve", "ray", "torchserve", "tf-serving", "kserve", "seldon", "endpoint deployment", "scaling", "gpu acceleration", "quantization", "loRA", "ggml", "awq",
+                "inferenz", "stapel inferenz", "echtzeit inferenz", "bereitstellung endpunkt", "gpu beschleunigung"
+            ],
+            "Multimodal": [
+                "multimodal", "clip", "blip", "vision transformer", "vit", "image segmentation", "object detection", "yolo", "segment anything", "sam", "audio processing", "speech recognition", "asr", "whisper", "ocr", "paddleocr", "document parsing",
+                "multimodal", "bild segmentierung", "objekterkennung", "sprach erkennung", "whisper", "ocr", "dokument analyse"
+            ]
+        },
+        "MLOps": {
+            "Core": [
+                "mlops", "model deployment", "model monitoring", "ci/cd for ml", "a/b testing", "champion-challenger",
+                "mlops", "modellbereitstellung", "modellüberwachung", "ci/cd für ml"
+            ],
+            "Tools": [
+                "docker", "kubernetes", "k8s", "kubeflow", "mlflow", "airflow", "dvc", "data version control", "weights & biases", "wandb",
+                "docker", "kubernetes", "kubeflow", "mlflow", "airflow"
+            ],
+            "Platforms": [
+                "aws sagemaker", "amazon sagemaker", "azure machine learning", "azureml", "google vertex ai", "vertex ai", "databricks",
+                "sagemaker", "azure ml", "vertex ai", "databricks"
+            ],
+            "FeatureEngineering": [
+                "feature engineering", "feature store", "feast", "embedding generation", "vectorization", "normalization", "standardization", "one-hot encoding", "target encoding", "feature selection", "dimensionality reduction",
+                "feature engineering", "feature speicher", "embedding erzeugung", "normalisierung", "standardisierung", "kodierung", "dimensionsreduktion"
+            ],
+            "Evaluation": [
+                "model drift", "data drift", "concept drift", "performance metrics", "precision", "recall", "f1", "roc", "auc", "calibration", "monitoring dashboard",
+                "modell drift", "daten drift", "konzept drift", "leistungsmetriken", "präzision", "genauigkeit"
+            ],
+            "SecurityPrivacy": [
+                "pii detection", "data masking", "encryption", "rbac", "oauth2", "jwt", "gdpr compliance", "access control", "security scanning",
+                "pii erkennung", "datenmaskierung", "verschlüsselung", "zugriffskontrolle", "gdpr konformität", "sicherheitsprüfung"
+            ]
+        },
+        "Data Engineering": {
+            "IngestionStreaming": [
+                "data pipeline", "data ingestion", "stream processing", "apache kafka", "kafka", "kinesis", "pubsub", "eventhub", "spark streaming", "flink", "beam", "delta lake", "iceberg", "hudi", "parquet", "orc",
+                "daten pipeline", "daten ingestion", "stream verarbeitung", "apache kafka", "kinesis", "eventhub", "delta lake", "iceberg"
+            ],
+            "Orchestration": [
+                "workflow orchestration", "dagster", "prefect", "airflow dag", "scheduling", "dependency management",
+                "workflow orchestration", "planung", "abhängigkeitsverwaltung"
+            ],
+            "DataQuality": [
+                "data quality", "data validation", "great expectations", "expectation suite", "schema enforcement", "profiling", "evidently",
+                "datenqualität", "datenvalidierung", "große erwartungen", "schemaprüfung", "profilierung"
+            ]
+        },
+        "Cloud Platforms": {
+            "AWS": [
+                "aws", "s3", "ec2", "lambda", "cloudwatch", "iam", "glue", "redshift", "emr", "athena",
+                "aws", "cloudwatch", "iam"
+            ],
+            "Azure": [
+                "azure", "azure functions", "azure databricks", "azure storage", "azure blob", "azure event hub", "azure synapse", "cosmos db",
+                "azure", "azure funktionen", "cosmos db"
+            ],
+            "GCP": [
+                "gcp", "google cloud", "bigquery", "dataproc", "dataflow", "pubsub", "vertex ai",
+                "gcp", "google cloud", "bigquery"
+            ]
+        },
+        "Synthetic Data": {
+            "Generation": [
+                "synthetic data", "data augmentation", "generative sampling", "tabular synthesis", "privacy-preserving synthetic data",
+                "synthetische daten", "datenaugmentation", "generative stichprobe", "tabellarische synthese"
+            ]
+        },
+        "Specialized ML": {
+            "NLP": [
+                "nlp", "tokenization", "named entity recognition", "ner", "sentiment analysis", "text classification", "translation", "summarization", "embedding", "word2vec", "glove", "pos tagging",
+                "nlp", "benannte entität erkennung", "stimmungsanalyse", "text klassifizierung", "übersetzung", "zusammenfassung"
+            ],
+            "ComputerVision": [
+                "computer vision", "image classification", "object detection", "segmentation", "yolo", "resnet", "unet", "opencv", "augmentation", "gan", "autoencoder",
+                "computer vision", "bildklassifizierung", "objekterkennung", "segmentierung", "bildverarbeitung"
+            ],
+            "ReinforcementLearning": [
+                "reinforcement learning", "rl", "policy gradient", "q-learning", "ppo", "actor-critic", "reward shaping", "environment simulation",
+                "bestärkendes lernen", "policy gradient", "q-lernen", "belohnungsfunktion"
+            ]
+        },
+        "Ethical and Responsible AI": {
+            "EthicalAI": [
+                "responsible ai", "ai ethics", "explainable ai", "xai", "interpretable ai", "ai safety", "ai governance", "fairness", "accountability", "transparency", "fate",
+                "verantwortungsvolle ki", "ki-ethik", "erklärbare ki", "xai", "interpretierbare ki", "ki-sicherheit", "ki-governance", "fairness", "rechenschaftspflicht", "transparenz"
+            ]
+        }
+    }
+}

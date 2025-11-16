@@ -1,0 +1,51 @@
+Skill_category,Skill,Count,Percentage
+Statistics and Data,machine learning,900,13.78
+Statistics and Data,sql,113,1.73
+Statistics and Data,big data,46,0.7
+Statistics and Data,statistik,44,0.67
+Statistics and Data,statistics,35,0.54
+Occupational Attributes,python,414,6.34
+Occupational Attributes,integration,185,2.83
+Occupational Attributes,sap,177,2.71
+Occupational Attributes,architecture,91,1.39
+Occupational Attributes,java,78,1.19
+Decision Making and Analytical,design,364,5.57
+Decision Making and Analytical,analysis,180,2.76
+Decision Making and Analytical,analyse,138,2.11
+Decision Making and Analytical,implementierung,137,2.1
+Decision Making and Analytical,zusammenarbeit,128,1.96
+Cloud Platforms,azure,184,2.82
+Cloud Platforms,aws,131,2.01
+Cloud Platforms,gcp,40,0.61
+Cloud Platforms,emr,3,0.05
+Cloud Platforms,redshift,2,0.03
+General,english,98,1.5
+General,deutsch,95,1.45
+General,mathematik,95,1.45
+General,german,87,1.33
+General,datenanalyse,52,0.8
+Specialized ML,nlp,74,1.13
+Specialized ML,computer vision,25,0.38
+Specialized ML,bildverarbeitung,14,0.21
+Specialized ML,translation,9,0.14
+Specialized ML,opencv,7,0.11
+Generative AI,llm,73,1.12
+Generative AI,scaling,29,0.44
+Generative AI,rag,22,0.34
+Generative AI,openai,20,0.31
+Generative AI,langchain,18,0.28
+Communication,responsible,70,1.07
+Communication,competitive,29,0.44
+Communication,verantwortlich,24,0.37
+Communication,present,18,0.28
+Communication,presentation,14,0.21
+Employee Attributes,flexible,63,0.96
+Employee Attributes,motivated,46,0.7
+Employee Attributes,independent,32,0.49
+Employee Attributes,accuracy,28,0.43
+Employee Attributes,reliable,25,0.38
+MLOps,docker,54,0.83
+MLOps,kubernetes,46,0.7
+MLOps,mlops,41,0.63
+MLOps,databricks,21,0.32
+MLOps,precision,10,0.15

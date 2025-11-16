@@ -1,0 +1,31 @@
+Rank,Category,Skill,Count,Percentage
+1,Statistics and Data,machine learning,900,13.78
+2,Occupational Attributes,python,414,6.34
+3,Decision Making and Analytical,design,364,5.57
+4,Occupational Attributes,integration,185,2.83
+5,Cloud Platforms,azure,184,2.82
+6,Decision Making and Analytical,analysis,180,2.76
+7,Occupational Attributes,sap,177,2.71
+8,Decision Making and Analytical,analyse,138,2.11
+9,Decision Making and Analytical,implementierung,137,2.1
+10,Cloud Platforms,aws,131,2.01
+11,Decision Making and Analytical,zusammenarbeit,128,1.96
+12,Statistics and Data,sql,113,1.73
+13,Decision Making and Analytical,collaboration,109,1.67
+14,General,english,98,1.5
+15,Decision Making and Analytical,testing,97,1.48
+16,Decision Making and Analytical,communication,95,1.45
+17,General,deutsch,95,1.45
+18,General,mathematik,95,1.45
+19,Occupational Attributes,architecture,91,1.39
+20,General,german,87,1.33
+21,Decision Making and Analytical,implementation,81,1.24
+22,Occupational Attributes,java,78,1.19
+23,Specialized ML,nlp,74,1.13
+24,Generative AI,llm,73,1.12
+25,Communication,responsible,70,1.07
+26,Occupational Attributes,c + +,69,1.06
+27,Employee Attributes,flexible,63,0.96
+28,Decision Making and Analytical,analytical,61,0.93
+29,MLOps,docker,54,0.83
+30,Occupational Attributes,hardware,54,0.83
